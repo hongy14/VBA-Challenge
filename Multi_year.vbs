@@ -3,14 +3,11 @@ Sub AlphaTesting():
 
 For Each ws In Worksheets
 
-
 Dim Ticker As String
 Dim Yearly_change As Double
 Dim Percent_change As Double
-Dim First_ticker As Boolean
 Dim Open_price As Double
 Dim Close_price As Double
-
 
 Dim summary_table_row As Integer
 summary_table_row = 2
